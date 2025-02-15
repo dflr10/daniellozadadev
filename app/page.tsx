@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { FiDownload } from "react-icons/fi";
+import { FiInfo } from "react-icons/fi";
 
 function Home() {
   return (
@@ -10,12 +10,12 @@ function Home() {
           <div className="text-center xl:text-left">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1 mb-6">
-              Hi!, I'm <br /> <span className="text-accent">Daniel Lozada</span>
+              Hi, I'm <br /> <span className="text-accent">Daniel Lozada</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I have more than 2 years of experience in developing web
-              applications with technologies such as Next Js, Contentful, AWS
-              and Java, applying high standards of usability and accessibility.
+            Let's boost your business with AI and SEO.
+            Better search engine positioning, more organic traffic and more customers. <br /> 
+            Grow smart and affordably.
             </p>
             {/*btn & social*/}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -24,8 +24,8 @@ function Home() {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
+                <span>Find out how here!</span>
+                <FiInfo className="text-xl" />
               </Button>
               <div>Socials</div>
             </div>
