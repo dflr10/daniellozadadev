@@ -18,7 +18,7 @@ function Home() {
             <p className="max-w-[500px] mb-9 text-white/80">
             Let's boost your business with AI and SEO.
             Better search engine positioning, more organic traffic and more customers. <br /> 
-            Grow smart and affordably.
+            Grow smartly.
             </p>
             {/*btn & social*/}
             <div className="flex flex-col xl:flex-row items-center gap-8">
